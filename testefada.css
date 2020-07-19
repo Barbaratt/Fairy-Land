@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+head {
+    background-color: white;
+    height: 0px;
+    width: 100%;
+ 
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a {
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+ul li a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+#title {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: green;
+
+}
+
+
+.border {
+    border-radius: 25px;
+    border: 5px green;
+    background-color: white;
+    color: green;
+}
+
+.border :hover {
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    min-width: 100%;
+}
+
+.sub {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    overflow: hidden;
+    max-width: 40ch;
+    font-size: 20px;
+}
+
+.sub b {
+    
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+
+    color: white;
+    border-radius: 25px;
+    background-color: goldenrod;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.btn:hover {
+    border: 2px solid black;
+    border-style: dotted;
+    transition: 0.3s;
+}
+
+footer {
+    margin: 0;
+    margin-top: -4px;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+
+/* RESPONSIVO */
+/* TELA COMUM */
+
+@media screen and (max-width: 600px) {
+
+    #title {
+        font-size: 70px;
+    }
+
+    .sub {
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    font-size: 10px;
+    }
+
+    .btn {
+        height: 30px;
+        width: 60px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .sub {
+        position: absolute;
+        left: 360px;
+        top: 100px;
+        font-size: 12px;
+        }
+
+        .btn {
+            height: 40px;
+            width: 70px;
+            margin-left: 70px;
+        }
+    }
+
+/* DEVICES */
+
+@media screen and (min-width: 360px) {
+
+    #title {
+        font-size: 50px;
+    }
+
+    .sub {
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+        left: 500px;
+        overflow: hidden;
+        max-width: 35ch;
+    }
+
+    .sub b {
+        font-size: 40px;
+        margin-left: -5px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 50px;
+        margin-left: 120px;
+        margin-top: 8px;
+    }
+
+}
