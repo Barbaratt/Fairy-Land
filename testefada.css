@@ -69,13 +69,14 @@ ul li a {
 }
 
 img {
+    margin-top: 5px;
     width: 100%;
     min-width: 100%;
 }
 
 .sub {
     position: absolute;
-    left: 650px;
+    left: 50px;
     top: 200px;
     overflow: hidden;
     max-width: 40ch;
@@ -164,6 +165,40 @@ footer {
         }
     }
 
+/* TELA ACIMA DE 1200PX*/
+
+@media screen and (min-width: 1500px) {
+
+    #title {
+        font-size: 80px;
+    }
+
+    .sub b {
+        font-size: 80px;
+    }
+
+    .sub {
+        font-size: 35px;
+        position: absolute;
+        top: 320px;
+        left: 980px;
+        overflow: hidden;
+        max-width: 35ch;
+    }
+
+    .btn {
+        width: 120px;
+        height: 90px;
+        margin-left: 200px;
+        margin-top: 8px;
+    }
+
+    footer {
+        height: 80px;
+        font-size: 35px;
+    }
+}
+
 /* DEVICES */
 
 @media screen and (min-width: 360px) {
@@ -194,3 +229,4 @@ footer {
     }
 
 }
+
